@@ -1,0 +1,76 @@
+.fondo{
+    -fx-background-color: #d2ebff;
+}
+
+.tituloVentanas{
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-alignment: center;
+}
+
+.Botones{
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+}
+
+.BotonAsignar{
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-background-color: #17c69c;
+}
+
+.Labels{
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+}
+.tituloseccion{
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-text-fill: #002644;
+    -fx-alignment: center;
+}
+.textfield{
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-background-color: #ffffff;
+
+}
+.listview{
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-background-color: #ffffff;
+}
+
+.tableview{
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-background-color: #ffffff;
+}
+
+.piechart{
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-background-color: #ffffff;
+}
+
+.combobox{
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-background-color: #ffffff;
+}
+
+.datepicker{
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-background-color: #ffffff;
+}

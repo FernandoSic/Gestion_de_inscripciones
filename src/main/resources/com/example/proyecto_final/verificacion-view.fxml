@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="750.0" styleClass="fondo" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyecto_final.controllers.VerificacionViewController">
+   <children>
+      <Label layoutX="309.0" layoutY="14.0" styleClass="tituloVentanas" text="Verificar cursos" />
+      <ComboBox fx:id="comboBoxCurso" layoutX="31.0" layoutY="336.0" prefHeight="25.0" prefWidth="184.0" promptText="Seleccione el curso" styleClass="combobox" />
+      <DatePicker fx:id="datePickerFecha" layoutX="31.0" layoutY="419.0" promptText="Selecciones la fecha" styleClass="datepicker" />
+      <TableView fx:id="tablaAsignados" layoutX="25.0" layoutY="50.0" prefHeight="236.0" prefWidth="700.0" styleClass="tableview">
+        <columns>
+          <TableColumn fx:id="columnaCarnet" prefWidth="50.0" text="Carnet" />
+          <TableColumn fx:id="columnaNombre" prefWidth="125.0" text="Nombres" />
+            <TableColumn fx:id="columnaApellido" prefWidth="125.0" text="Apellidos" />
+            <TableColumn fx:id="columnaCorreo" prefWidth="125.0" text="Correo" />
+            <TableColumn fx:id="columnaFechaIscripcion" prefWidth="100.0" text="Fecha " />
+            <TableColumn fx:id="columnaSolvente" prefWidth="75.0" text="Solvente" />
+            <TableColumn fx:id="columnaCurso" prefWidth="100.0" text="Curso" />
+        </columns>
+      </TableView>
+      <PieChart fx:id="GraficaSolventes" layoutX="269.0" layoutY="297.0" prefHeight="270.0" prefWidth="456.0" styleClass="piechart" title="Estado de estudiantes" />
+      <Label layoutX="31.0" layoutY="309.0" text="Curso">
+         <styleClass>
+            <String fx:value="Labels" />
+            <String fx:value="tituloseccion" />
+         </styleClass>
+      </Label>
+      <Label layoutX="31.0" layoutY="392.0" styleClass="tituloseccion" text="Fecha" />
+   </children>
+</AnchorPane>
